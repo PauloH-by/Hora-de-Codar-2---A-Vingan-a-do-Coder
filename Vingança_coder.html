@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora de Codar 2 - A Vingança do Coder</title>
+</head>
+<body>
+
+    <script>
+
+        /* 1 -
+        var n1 = prompt("Informe um número");
+        var n2 = prompt("Informe o segundo número");
+
+        if(n1 > n2){
+            alert("O maior número digitado é " + n1);
+
+
+        }
+
+        else{
+            alert("O maior número digitado é " +n2);
+            
+        }
+
+
+        2 -
+         var n1 = prompt('Digite um valor');
+         if(n1 >0){
+            alert('O número digitado é positivo');
+         }
+
+        if(n1 < 0){
+            alert('O número digitado é negativo ');
+         }
+         if(n1 == 0){
+            alert('O valor digitado é 0 ');
+         }
+
+      
+         3 -
+        var n1 = prompt("Digite o primeiro valor ");
+        var n2 = prompt("Digite o segundo valor ");
+        var n3 = prompt("Digite o terceiro valor ");
+
+        if (n1 > n2 && n1 > n3) {
+
+            alert("número " + n1 + " é o maior!") 
+
+        }
+
+        if (n2 > n1 && n2 > n3) {
+
+            alert("número " + n2 + " é o maior!") 
+
+        }
+
+        if (n3 > n1 && n3 > n2) {
+
+            alert("número " + n3 + " é o maior ") 
+
+        }
+
+        4- 
+
+        var n1 = parseInt(prompt("Insira o primeiro valor "));
+        var n2 = parseInt(prompt("Insira o segundo valor "));
+        var n3 = parseInt(prompt("Insira o terceiro valor "));
+
+
+         if (n1 > n2 && n1 > n3) {
+            if(n2 > n3){
+                alert(n1+n2);
+            }
+            else{
+                alert(n1+n3);
+            }
+            
+        }
+
+        if (n2 > n1 && n2 > n3) {
+            if(n1 > n3){
+                alert(n2+n1);
+            }
+            else{
+                alert(n2+n3);
+            }
+        }
+
+        if (n3 > n1 && n3 > n2) {
+            if(n1 > n2){
+                alert(n3+n1);
+            }
+            else{
+                alert(n3+n2);
+            }
+
+
+        }
+                 5 - 
+        var n1 = parseInt (prompt("Digite um número"));
+        var n2 = parseInt (prompt("Digite o segundo número"));
+        var n3 = parseInt (prompt("Digite o terceiro número"));
+        var n4 = parseInt (prompt("Digite o quarto número"));
+        var n5 = parseInt (prompt("Digite o quinto número"));
+        var n6 = parseInt (prompt("Digite o sexto número"));
+        
+
+        res = (n1 + n2 + n3 + n4 + n5 + n6) /6;
+
+        alert("A média é " + res);
+
+         var n1= parseInt (prompt("Informe o primeiro número."));
+        var n2= parseInt (prompt("Informe o segundo número."));
+        var n3= parseInt (prompt("Informe o terceiro número."));
+        var n4= parseInt (prompt("Informe o quarto número."));
+        var n5= parseInt (prompt("Informe o quinto número."));
+        var n6= parseInt (prompt("Informe o sexto número."));
+
+             7 - 
+        var soma= [n1+n2+n3+n4+n5+n6];
+        
+        if(n1<72 && n2<72 && n3<72 && n4<72 && n5<72 && n6<72){
+        alert("A soma dos números inferiores a 72 é igual a " + soma);
+        alert ("Os números informados pelo usuário são: " + [n1, n2, n3, n4, n5, n6])
+        }
+        else{
+            alert("Número(s) maiores que 72. Informe novamente!");
+        }
+
+        
+              8 -
+        var n1= parseInt(prompt("Informe o primeiro número."));
+var n2= parseInt(prompt("Informe o segundo número."));
+var n3= parseInt(prompt("Informe o terceiro número."));
+var n4= parseInt(prompt("Informe o quarto número."));
+var media = (n1+n2+n3+n4)/4;
+
+if(n1>0 && n1<10 && n2>0 && n2<10 && n3>0 && n3<10 && n4>0 && n4<10){
+    alert("A média é igual a " + media);
+
+if(media > 5){
+        alert("Você passou no teste!");
+    }
+else{
+        alert("Tente novamente.");
+    }
+}  
+else{
+    alert("As notas vão do 1 até o 9. Coloque novamente.")
+}      
+
+
+
+
+                
+
+    9 -
+    var anonascimento =parseInt(prompt("Digite o seu ano de nascimento")); 
+     var votar = 2022;
+
+     if(votar>=16){
+         alert("Você pode votar este ano!Pois tem " +votar+ " anos");
+}
+     else{
+         alert("Você não pode votar este ano!"); 
+         
+}
+          10 -
+        alert("Vamos calcular seu peso ideal.");
+        var altura = parseFloat(prompt("Informe sua altura"));
+        var sexo = parseFloat(prompt("Informe seu sexo. \n Digite 1 para feminino e 2 para masculino."))
+        
+
+
+        var f = 1;
+        var m = 2;
+        
+        var pesoF = (62.1 * altura) - 44.7;
+        var pesoM = (72.7 * altura) - 58;
+        
+        if(sexo == f){
+         alert("Seu peso ideal é igual a: " + pesoF + "Kg");
+        }
+
+        else if(sexo == m){
+            alert("Seu peso ideal é igual a: " + pesoM + "Kg");
+        }           
+    
+    
+    
+    
+    
+    
+    
+    
+    11 - 
+    var valor1 = parseInt(prompt("Digite o primeiro valor"));
+    var valor2 = parseInt(prompt("Digite o segundo valor"));
+
+    var operacoes = parseInt(prompt(" Digite 1 para somar \n Digite 2 para subtrair \n Digite 3 para dividir \n Digite 4 para multiplicar"));
+    var adicao = 1 ;
+    var subtracao = 2;
+    var divisao = 3;
+    var multi = 4;
+
+    if(operacoes == 1){
+        alert(  valor1+valor2 );
+        
+    }
+    if(operacoes == 2){
+        alert( valor1 - valor2);
+    }
+    if(operacoes == 3){
+        alert(valor1 / valor2 );
+    }
+    if(operacoes == 4){
+        alert(valor1 * valor2);
+    }
+     if(operacoes == operacoes){
+        alert('Tecla inválida. Digite de 1 a 4');
+    }
+    
+
+    
+
+
+         
+
+         
+
+    </script>
+    
+</body>
+</html>
